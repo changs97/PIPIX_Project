@@ -21,10 +21,12 @@
         android:theme="@style/Theme.PipiX">
 
         <activity
+            android:screenOrientation="portrait"
             android:name=".src.main.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light"></activity>
         <activity
+            android:screenOrientation="portrait"
             android:name=".src.splash.SplashActivity"
             android:theme="@style/Theme.AppCompat.Light">
             <intent-filter>
@@ -33,17 +35,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".src.chart.ChartActivity"
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".src.chart.ChartActivity"
             android:theme="@style/Theme.AppCompat.Light"/>
-        <activity android:name=".src.consent.ConsentActivity"
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".src.consent.ConsentActivity"
             android:theme="@style/DialogTheme" />
-        <activity android:name=".src.consent.contents.ContentsActivity"
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".src.consent.contents.ContentsActivity"
             android:theme="@style/DialogTheme" />
-        <activity android:name=".src.warning.WarningActivity"
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".src.warning.WarningActivity"
             android:theme="@style/DialogTheme" />
-        <activity android:name=".src.speechresult.SpeechResultActivity"
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".src.speechresult.SpeechResultActivity"
             android:theme="@style/Theme.AppCompat.Light"/>
-        <activity android:name=".src.deleteitem.DeleteItemActivity"
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".src.deleteitem.DeleteItemActivity"
             android:theme="@style/DialogTheme" />
 
     </application>
